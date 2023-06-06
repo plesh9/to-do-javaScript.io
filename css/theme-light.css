@@ -1,0 +1,38 @@
+body {
+    background: #f1f4fb;
+}
+.container {
+    background-color: #fff;
+    box-shadow: 0px 6px 18px rgba(119, 119, 121, 0.1);
+    border: 1px solid #ebedfa;
+}
+#inputField {
+    border: 1px solid black;
+}
+#inputField{
+    color: #111111;
+    border: 2px solid #d1d3d4;
+}
+
+#inputField:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+
+#addToDo {
+    background-color: #0d75ec;
+    color: #ffffff;
+}
+.to-dos::-webkit-scrollbar-thumb{
+    background-color: #0d75ec;
+}
+.to-dos::-webkit-scrollbar-track{
+    background: #f1f4fb;
+}
+.to-dos li::marker{
+    font-weight: 700;
+    font-size: 18px;
+}
+.paragraph__complete{
+    border: 1px solid #a5a6ac;
+}

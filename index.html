@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" title="theme" href="#">
+    <title>To Do List</title>
+</head>
+<body>
+   <div class="app">
+     <div class="container">
+         <div>
+         <div class="flex">
+               <h1>To Do List</h1>
+               <div class="theme">
+                   <img class="change-theme theme__dark-img" data-theme="light" src="./images/moon-svgrepo-com.svg" alt="">
+                   <img class="change-theme theme__light-img" data-theme="dark" src="./images/sun-svgrepo-com.svg" alt="">
+               </div>
+         </div>
+            <div class="input__form">
+               <input onchange="myFn()" id="inputField" type="text" placeholder="Add your to do">
+               <button id="addToDo">Add</button>
+            </div>
+         </div>
+         <ol class="to-dos" id="toDoContainer">
+         </ol>
+     </div>
+   </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
