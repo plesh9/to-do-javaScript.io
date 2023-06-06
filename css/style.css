@@ -162,7 +162,7 @@ h1{
 .paragraph__close{
     flex: 0 0 20px;
     height: 20px;
-    background-image: url('../../images/close.png');
+    background-image: url('../images/close.png');
     background-size: contain;
     background-repeat: no-repeat;
     transition: all .3s ease;
@@ -180,7 +180,7 @@ h1{
     color: red;
 }
 .paragraph__box.completed .paragraph__complete{
-    background-image: url('../../images/check-mark-svgrepo-com.svg');
+    background-image: url('../images/check-mark-svgrepo-com.svg');
 }
 
 .paragraph-styling {
